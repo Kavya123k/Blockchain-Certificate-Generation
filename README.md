@@ -38,6 +38,19 @@ A web application to generate, store, and share digital certificates securely us
 
 ---
 
+🧠 Smart Contract Overview
+solidity
+Copy
+Edit
+struct Certificate {
+    string studentName;
+    string course;
+    string institution;
+    string dateIssued;
+    string ipfsHash;
+}
+All certificate metadata is stored on-chain, and the file (PDF/image) is stored on IPFS.
+
 ## 🚀 Getting Started
 
 ### 1. Clone the repo
